@@ -1,2 +1,2 @@
-board = Array.new(9, "9")
+board = Array.new(9, " ")
 puts board
