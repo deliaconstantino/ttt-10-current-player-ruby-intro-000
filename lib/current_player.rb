@@ -2,9 +2,10 @@
 #puts board.to_s
 
 def current_player(board)
-  if num_turn % 2 == 0
+  turns_played = turn_count(board)
+  if turns_played % 2 == 0
     current_player = "X"
-  elsif num_turn % 2 == 1
+  elsif turns_played % 2 == 1
     current_player = "O"
   end
 end
