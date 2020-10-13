@@ -9,6 +9,13 @@ def current_player(board)
 end
 
 def turn_count(board)
+  num_turns = 0
+  board.each do |space|
+    play = "#{space}"
+    if play == "X" || play == "O"
+      num_turns += 1
+    end
+  end
   return num_turns
 end
 
