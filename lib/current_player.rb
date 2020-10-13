@@ -9,8 +9,8 @@ def current_player(board)
 end
 
 def turn_count(board)
-  board.each do |count|
-  puts "#{count}"
+  board.each do |board|
+  puts "#{board}"
   play = gets.chomp
     num_turns = 0
     if play == "X" || play == "O"
