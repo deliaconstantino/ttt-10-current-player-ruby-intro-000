@@ -14,7 +14,7 @@ board = Array.new(9, " ")
 # end
 # end
 
-board.each do |count|
+#turn_count = board.each do |count|
   puts "#{count}"
   play = gets.chomp
   num_turns = 0
