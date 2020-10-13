@@ -11,7 +11,7 @@ end
 
 def turn_count(board)
   num_turns = 0
-  num_turns = board.each do |board|
+  board.each do |board|
     play = puts "#{board}"
     if play == "X" || play == "O"
       num_turns += 1
