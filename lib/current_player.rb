@@ -12,6 +12,6 @@ board.each do |count|
   if play == "X" || play == "O"
     num_turn += 1
   end
-  return num_turns
 end
+return num_turns
 end
