@@ -6,7 +6,7 @@ def turn_count(board)
   num_turns = 0
   while count < 9
   puts "#{board[count]}"
-  play = gets.strip
+  play = gets
   if play == "X" || play == "O"
     num_turns + 1
   end
