@@ -22,3 +22,6 @@ board.each do |count|
     num_turn += 1
   end
 end
+
+def current_play(board)
+end
