@@ -1,2 +1,1 @@
-def turn_count
-end
+Array.
