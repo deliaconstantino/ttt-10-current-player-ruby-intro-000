@@ -10,8 +10,8 @@ def current_player(board)
 end
 
 def turn_count(board)
+  num_turns = 0
   board.each do |board|
-    num_turns = 0
     play = puts "#{board}"
     if play == "X" || play == "O"
       num_turns += 1
