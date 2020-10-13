@@ -6,6 +6,7 @@ def current_player(board)
     current_player = "X"
   elsif num_turn % 2 == 1
     current_player = "O"
+  end
 end
 
 def turn_count(board)
