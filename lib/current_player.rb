@@ -4,12 +4,14 @@ board = Array.new(9, " ")
 def current_play(board)
 end
 
-# board.each do |count|
-#   puts "#{count}"
-#   play = gets.chomp
-#   num_turns = 0
-#   if play == "X" || play == "O"
-#     num_turn += 1
-#   end
-#   return num_turns
-# end
+def turn_count(board)
+board.each do |count|
+  puts "#{count}"
+  play = gets.chomp
+  num_turns = 0
+  if play == "X" || play == "O"
+    num_turn += 1
+  end
+  return num_turns
+end
+end
