@@ -4,7 +4,7 @@ board = Array.new(9, " ")
 def turn_count(board)
   count = 0
   num_turns = 0
-  while count < board[count]
+  while count < 9
   puts "#{board[count]}"
   play = gets.strip
   if play == "X" || play == "O"
