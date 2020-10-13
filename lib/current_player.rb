@@ -15,9 +15,10 @@ board = Array.new(9, " ")
 # end
 
 board.each do |count|
-  print "#{count}"
+  puts "#{count}"
   play = gets.chomp
   num_turns = 0
   if play == "X" || play == "O"
     num_turn += 1
   end
+end
