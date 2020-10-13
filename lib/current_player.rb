@@ -1,16 +1,23 @@
 board = Array.new(9, " ")
 #puts board.to_s
 
-def current_play(board)
+def current_player(board)
   if num_turn % 2 == 0
     current_player = "X"
   elsif num_turn % 2 == 1
-    current_player = "O'"
+    current_player = "O"
 end
 
 def turn_count(board)
-  while
-
+  board.each do |count|
+  puts "#{count}"
+  play = gets.chomp
+    num_turns = 0
+    if play == "X" || play == "O"
+      num_turns += 1
+    end
+  end
+  return num_turns
 end
 
 
