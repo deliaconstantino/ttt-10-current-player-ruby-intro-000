@@ -5,13 +5,17 @@ def current_play(board)
 end
 
 def turn_count(board)
-board.each do |count|
-  puts "#{count}"
-  play = gets.chomp
-  occupied_positions = 0
-  if play == "X" || play == "O"
-    occupied_positions += 1
-  end
+  while
+
 end
-return occupied_positions
-end
+
+
+# board.each do |count|
+#   puts "#{count}"
+#   play = gets.chomp
+#   occupied_positions = 0
+#   if play == "X" || play == "O"
+#     occupied_positions += 1
+#   end
+# end
+# return occupied_positions
