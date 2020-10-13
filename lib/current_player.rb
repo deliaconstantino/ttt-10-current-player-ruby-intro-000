@@ -9,7 +9,15 @@ def current_player(board)
 end
 
 def turn_count(board)
- return num_turns
+  count = 0
+  num_turns = 0
+  while count < 9
+    play = "#{board[count]}"
+    if play == "X" || play == "O"
+      num_turns += 1
+    end
+    count += 1
+  end
 end
 
 # def turn_count(board)
