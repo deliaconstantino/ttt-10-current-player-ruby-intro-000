@@ -11,13 +11,14 @@ end
 
 def turn_count(board)
   board.each do |board|
-  puts "#{board}"
-  play = gets.chomp
+    puts "#{board}"
+    play = gets.chomp
     num_turns = 0
     if play == "X" || play == "O"
       num_turns += 1
     end
   end
+
   return num_turns
 end
 
