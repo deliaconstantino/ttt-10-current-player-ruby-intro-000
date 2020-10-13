@@ -6,7 +6,7 @@ def turn_count(board)
   num_turns = 0
   while count < 9
   puts "#{board[count]}"
-  play = gets
+  play = gets.chomp
   if play == "X" || play == "O"
     num_turns + 1
   end
@@ -14,5 +14,5 @@ def turn_count(board)
 end
 end
 
-board.each do |count|
-  print "#{board[count]}"
+# board.each do |count|
+#   print "#{board[count]}"
